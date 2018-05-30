@@ -29,18 +29,33 @@ DATABASES = {
 }
 ```
 
-
 ## 克隆代码
-> git clone https://github.com/bg4hkq/Django-ERP.git
 
+```
+git clone https://github.com/bg4hkq/Django-ERP.git
+```
+
+## 安装依赖
+
+```
+cd Django-ERP
+pip install -r requirements.txt
+```
 
 ## 导入数据库
-> mysql -uroot -proot mis < Install/mis.sql
+
+```
+mysql -uroot -proot mis < mis.sql
+```
 
 ## 运行测试服务器
-> python manage.py runserver
+
+```
+python manage.py runserver
+```
 
 ## 修改管理员账户密码
+
 ```
 C:\Django-ERP>python manage.py changepassword admin
 

@@ -2,7 +2,8 @@
 SQLyog 企业版 - MySQL GUI v8.14 
 MySQL - 5.1.55-community : Database - mis
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -90,7 +91,7 @@ CREATE TABLE `auth_user` (
 
 /*Data for the table `auth_user` */
 
-insert  into `auth_user`(`id`,`password`,`last_login`,`is_superuser`,`username`,`first_name`,`last_name`,`email`,`is_staff`,`is_active`,`date_joined`) values (11,'pbkdf2_sha256$20000$65muyWSOyY0I$AJfRNDE6kHRx5nC+mpIokzi8SbBxOgkHvhUSV9aEsPs=','2015-07-30 21:20:26',1,'chengcai','才','成','chengcai@abc.com',1,1,'2015-06-28 06:07:28'),(12,'pbkdf2_sha256$20000$Aa8BLynbsEpp$pI4WoKbMcC6aMUWt0CMCsG+n4pCd1hU3en6rLrHhh8s=','2015-06-28 06:21:54',0,'admin','管理员','系统','admin@abc.com',1,1,'2015-06-28 06:21:16'),(13,'pbkdf2_sha256$20000$PEAP6nZQMRCd$tZYq/lxTE8D4AfxuTvDp6SwhXzhjlti1Md21z0sM+CQ=','2015-07-30 21:24:15',0,'zhangsan','张三','','',1,1,'2015-07-02 05:16:00'),(14,'pbkdf2_sha256$20000$JHBOGao9PQ8B$fkSipKaxiKPc1wSDF+goL3CTq9Vn8FChVwECsedyGAw=','2015-07-30 21:23:39',0,'lisi','李四','','',1,1,'2015-07-02 05:17:00'),(15,'pbkdf2_sha256$20000$y5ll1rcvxVCD$aVtFs/PauFR3SkhQER87nD8fYMTI79ix1mTzt5qYMpU=',NULL,0,'wangwu','王五','','',1,1,'2015-07-02 05:17:00'),(16,'pbkdf2_sha256$20000$8x5VhF4ohGFd$YEBmAxWAb8xkIBcbzsLLAgCNCoMt7hMQlO4K2v80isM=','2015-07-30 21:22:33',0,'dongyong','董永','','',1,1,'2015-07-02 05:17:00'),(17,'pbkdf2_sha256$20000$NR4ED19mIltP$nBnvpsnPPDdQniXIq/H2TRZny9KDo4w/LdM9yRRrJmk=','2015-07-15 12:06:07',0,'9001','曹菊芳','','caojf@163.com',1,1,'2015-07-15 12:04:17');
+insert  into `auth_user`(`id`,`password`,`last_login`,`is_superuser`,`username`,`first_name`,`last_name`,`email`,`is_staff`,`is_active`,`date_joined`) values (11,'pbkdf2_sha256$20000$65muyWSOyY0I$AJfRNDE6kHRx5nC+mpIokzi8SbBxOgkHvhUSV9aEsPs=','2015-07-30 21:20:26',1,'chengcai','才','成','chengcai@abc.com',1,1,'2015-06-28 06:07:28'),(12,'pbkdf2_sha256$36000$w78UArvn770i$8Jm69lF3Zt+1zV5z+WvW6Erc0YNWQqle2qaycBA5duY=','2015-06-28 06:21:54',0,'admin','管理员','系统','admin@abc.com',1,1,'2015-06-28 06:21:16'),(13,'pbkdf2_sha256$20000$PEAP6nZQMRCd$tZYq/lxTE8D4AfxuTvDp6SwhXzhjlti1Md21z0sM+CQ=','2015-07-30 21:24:15',0,'zhangsan','张三','','',1,1,'2015-07-02 05:16:00'),(14,'pbkdf2_sha256$20000$JHBOGao9PQ8B$fkSipKaxiKPc1wSDF+goL3CTq9Vn8FChVwECsedyGAw=','2015-07-30 21:23:39',0,'lisi','李四','','',1,1,'2015-07-02 05:17:00'),(15,'pbkdf2_sha256$20000$y5ll1rcvxVCD$aVtFs/PauFR3SkhQER87nD8fYMTI79ix1mTzt5qYMpU=',NULL,0,'wangwu','王五','','',1,1,'2015-07-02 05:17:00'),(16,'pbkdf2_sha256$20000$8x5VhF4ohGFd$YEBmAxWAb8xkIBcbzsLLAgCNCoMt7hMQlO4K2v80isM=','2015-07-30 21:22:33',0,'dongyong','董永','','',1,1,'2015-07-02 05:17:00'),(17,'pbkdf2_sha256$20000$NR4ED19mIltP$nBnvpsnPPDdQniXIq/H2TRZny9KDo4w/LdM9yRRrJmk=','2015-07-15 12:06:07',0,'9001','曹菊芳','','caojf@163.com',1,1,'2015-07-15 12:04:17');
 
 /*Table structure for table `auth_user_groups` */
 
